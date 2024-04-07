@@ -1,0 +1,210 @@
+
+<html>
+<head>
+  <title>Homework 1</title>
+  <style>
+    body {
+      background-color: peachpuff;
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+    }
+    /* Add demarcation */
+    .title-bar {
+      background-color: rgb(9, 84, 190);
+      color: black;
+      text-align: center;
+    }
+    /* Add styling for the title */
+    .title {
+      padding: 0; /* Remove default padding */
+      float: left;
+      margin-left: 10px;
+      margin-top: 20px;
+      font-size: 20px;
+    }
+    /* -----------Add a black background color to the top navigation */
+    .topnav {
+      background-color: peachpuff;
+      overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: pink;
+    }
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #D6A184
+      color: white;
+    }
+    .logo-class{
+      width: 60px;
+      height: 60px;
+      float: left;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .navbar{
+      float: right;
+      position: relative;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    
+    /* Image Gallery Styles */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      margin: 0; /* Remove margin between images */
+    }
+    .image-container img {
+      width: 200px; /* Adjust image width as needed */
+      height: auto;
+      transition: transform 0.3s ease; /* Smooth transition effect */
+    }
+    .image-container:hover img {
+      transform: scale(1.1); /* Scale image on hover */
+    }
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
+      padding: 20px;
+      border-radius: 5px;
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.3s ease; /* Smooth transition effect */
+    }
+    .text-overlay h2 {
+      font-size: 24px;
+      color: #333; /* Adjust text color */
+    }
+    .text-overlay p {
+      font-size: 16px;
+      color: #666; /* Adjust text color */
+    }
+    .image-container:hover .text-overlay {
+      opacity: 1;
+      /* Show overlay on hover */
+    }
+    .img_div{
+      display: flex;
+      height: 400px;
+
+    }
+    .img_div img{
+      flex: 1;
+      width: auto;
+      height: 100%;
+      max-width: 33.33%;
+      margin-top: 5px;
+    }
+    .address{
+      float: left;
+      width:50%;
+      text-align: center;
+    }
+    .hours{
+      float: left;
+      width: 50%;
+      text-align: center;
+    }
+    footer{
+      text-align: center;
+      background-color: black;
+      color: white;
+      display: inline-block;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="title-bar">
+    <div class="topnav">
+      <img src="Logo(Dom's).png" class="logo-class">
+      <h1 class="title">Dom's Sugarland<br></h1>
+      <div class="navbar">
+        <a class="active" href="Homwork 1.html">Meal Plans</a>
+        <a href="news.html">Hours</a>
+        <a href="contact.html">Menu</a>
+        <a href="contact.html">Awards</a>
+        <a href="C:\Users\HP\Desktop\Code CIS 2336\cis-2336-assignment-1-DominionA\About me.html">My Story</a>
+        <a href="contact.html">Contact Me</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="image-container">
+      <img src="fine dinning.png" alt="Fine Dining" style="width: 100%; height: auto;">
+      <div class="text-overlay">
+        <h2>Let's Party and Eat</h2>
+        <p>It's party time at The Blind Goat!  We're turning one, and we'd like to invite you to join the fun at our Anniversary Night Market on Sunday, March 24, 2024, from 5:00 PM to 8:00 PM.
+
+            What's the deal? Just snag a ticket for $50 – that gets you a foodie passport to explore all the deliciousness our market has to offer. And of course, we've got a cash bar to keep the good times flowing!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Gallery -->
+ <div class="img_div">
+      <img src="C:\Users\HP\OneDrive\Desktop\exam1-19174-DominionA\PICTURES\foood feast.png" alt="Image 1">
+      <img src="C:\Users\HP\OneDrive\Desktop\exam1-19174-DominionA\PICTURES\pepper fish.png" alt="Image 2">
+      <img src="C:\Users\HP\Desktop\Code CIS 2336\cis-2336-assignment-1-DominionA\stew.png" alt="Image 3">
+      
+    </div>
+    <div class="img_div">
+      <img src="C:\Users\HP\Desktop\Code CIS 2336\cis-2336-assignment-1-DominionA\Screenshot 2024-03-26 165633.png" alt="Image 1">
+      <img src="C:\Users\HP\Desktop\Code CIS 2336\cis-2336-assignment-1-DominionA\Screenshot 2024-03-26 165749.png" alt="Image 2">
+      <img src="C:\Users\HP\Desktop\Code CIS 2336\cis-2336-assignment-1-DominionA\suya.png" alt="Image 3">
+    </div>
+    
+
+<head>
+    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ 
+    <!-- Location and Hours Section -->
+    <section id="location-hours">
+        <div class="address">
+            <h2> Dom's Sugarland</h2>
+          
+            <p>123 Main Street,<br>Houston, Texas, 76010 <br> Domssugarland@uh.foodie</p>
+
+        </div>
+        <div class="hours">
+            <h2>Hours</h2>
+            <p>Monday - Friday: 9am - 10pm<br>
+               Saturday - Sunday: 10am - 11pm <br> Last Seating is 30 mins before closing.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+        <p>Contact: info@example.com | Phone: 123-456-7890</p>
+    </footer>
+
+
+    </body>
+    
+    
+    
